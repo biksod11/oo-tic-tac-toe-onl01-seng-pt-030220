@@ -72,7 +72,7 @@ class TicTacToe
   def over?                           # if someone wins OR its a draw its over
     won? || draw?
   end
-  
+
   def winner
     if combo = won?
       @board[combo[0]]
